@@ -17,5 +17,5 @@ With our data analysis project, we hope to answer the following questions:
 •	What could be the trend of the CO2 emissions in the near future if we analyze the economic growth of the US industries,
 
 •	Does the increase or decrease of the industry types of influx on the emission rate,
-
+    (using the ghgp_data_by_year.xlsx)
 •	Comparing the carbon emissions between direct emitters and other facility types.

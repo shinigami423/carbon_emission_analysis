@@ -17,3 +17,7 @@ The main database we are working on is from the United States Environmental Agen
 • Does the increase or decrease of the industry types of influx on the emission rate, (using the ghgp_data_by_year.xlsx)
 
 • Comparing the carbon emissions between direct emitters and other facility types.
+
+Google Slides presentation:
+
+https://docs.google.com/presentation/d/16130ry8vgYDdzpWbqL5rkDUw5KjI1PNz1XOkMpDAiHM/edit?usp=sharing

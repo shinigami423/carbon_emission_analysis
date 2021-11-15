@@ -20,3 +20,7 @@ With our data analysis project, we hope to answer the following questions:
     (using the ghgp_data_by_year.xlsx)
     
 •	Comparing the carbon emissions between direct emitters and other facility types.
+
+Google Slides presentation:
+
+https://docs.google.com/presentation/d/16130ry8vgYDdzpWbqL5rkDUw5KjI1PNz1XOkMpDAiHM/edit?usp=sharing

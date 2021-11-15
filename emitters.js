@@ -16,7 +16,7 @@ let allEmitters = new L.LayerGroup();
 // which layers are visible later if we need more layers
 //L.control.layers()
 /// Retrieve the emitter GeoJSON data.
-d3.json("file:///Users/lesliescherger/Desktop/Desktop%20-%20Leslie%E2%80%99s%20MacBook%20Air/Class/carbon_emission_analysis/clean_map_data.json").then(function(data) {
+d3.json("file:///Users/lesliescherger/Desktop/clean_map_data_full.json").then(function(data) {
     //
     function StyleInfo(feature) {
         return {
@@ -78,7 +78,6 @@ d3.json("file:///Users/lesliescherger/Desktop/Desktop%20-%20Leslie%E2%80%99s%20M
 
 // Then we add the earthquake layer to our map.
 allEmitters.addTo(map);
-};
 
 
 // Here we create a legend control object.
@@ -111,5 +110,4 @@ let legend = L.control({
 
   // Finally, we our legend to the map.
   legend.addTo(map)
-
 });

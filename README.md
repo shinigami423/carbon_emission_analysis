@@ -23,4 +23,9 @@ With our data analysis project, we hope to answer the following questions:
 
 Google Slides presentation:
 
-https://docs.google.com/presentation/d/16130ry8vgYDdzpWbqL5rkDUw5KjI1PNz1XOkMpDAiHM/edit?usp=sharing
+[Google Slide Link](https://docs.google.com/presentation/d/16130ry8vgYDdzpWbqL5rkDUw5KjI1PNz1XOkMpDAiHM/edit?usp=sharing)
+
+
+Tableau Visuals:
+
+[Tableau Links](https://public.tableau.com/app/profile/daniel.chu6199/viz/emissionsreport/directemission?publish=yes)

@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 from run_ml import predictions
+import numpy as np
 
 app = Flask(__name__)
 
@@ -27,10 +28,10 @@ def predict():
                                 model_USDA_energy_invest_unit, 
                                 model_USDA_energy_invest, 
                                 model_renewables_percent)
-        output = prediction[0]
+        output = np.exp(prediction[0])
         
         print(output)
-        return render_template("results.html", results = output)
+        return render_template("index.html", results = output)
 
 if  __name__ == "__main__":
     app.run()

@@ -5,25 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CO2 Emission - Machine Learning</title>
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+   />
 </head>
 <body>
-    <form action="/predict" method="POST">
-        <label>Industry Type</label>
-        <input type="text" name="type"><br>
-        <label>State Population</label>
-        <input type="text" name="population"><br>
-        <label>GDP per Capita</label>
-        <input type="text" name="gdp"><br>
-        <label>State Incentive</label>
-        <input type="text" name="incentives"><br>
-        <label>USDA Energy Invest Unit</label>
-        <input type="text" name="invest_unit"><br>
-        <label>USDA Energy Invest</label>
-        <input type="text" name="invest"><br>
-        <label>Renewables Percent</label>
-        <input type="text" name="percent"><br>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" style="color:rgb(48, 146, 236)" href="/">CO2 Emission Prediction</a>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Features Input</h3>
+                <form action="/predict" method="POST">
+                    <label for="type">Industry Type</label>
+                    <input type="text" placeholder="Enter from 0 to 49" name="type" size="50"><br>
+                    <label for="population">State Population</label>
+                    <input type="text" placeholder="Enter from 579054 to 39437610" name="population" size="50"><br>
+                    <label for="gdp">GDP per Capita</label>
+                    <input type="text" placeholder="Enter from 33594 to 76798" name="gdp" size="50"><br>
+                    <label for="incentives">State Incentives</label>
+                    <input type="text" placeholder="Enter from 13 to 226" name="incentives" size="50"><br>
+                    <label for="invest_unit">USDA Energy Invest Unit(4-839)</label>
+                    <input type="text" placeholder="Enter from 4 to 839" name="invest_unit" size="50"><br>
+                    <label for="invest">USDA Energy Invest</label>
+                    <input type="text" placeholder="Enter from 13418 to 310986100" name="invest" size="50"><br>
+                    <label for="percent">Renewables Percent</label>
+                    <input type="text" placeholder="Enter from 1.55 to 100" name="percent" size="50"><br>
 
-        <input type="submit">
-    </form>
+                    <input type="submit">
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Results:</h3>   
+                    <h4>{{results}}</h4>
+                </div>
+            </div>
+        </div>        
+    </div>
 </body>
 </html>

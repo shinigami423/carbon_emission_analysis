@@ -2,11 +2,11 @@
 
 ## Background
 Greenhouse gases trap heat and make the planet warmer. 
-Human activities are responsible for almost all of the increase in greenhouse gases in the atmosphere over the last 150 years
+Human activities are responsible for almost all of the increase in greenhouse gases in the atmosphere over the last 150 years.
 Burning fossil fuels for electricity, heat, and transportation is the largest source of greenhouse gas emissions from human activities in the United States.
 
-To understand the impact of power plants on the US GHG emissions, we focused on datasets from the United States Environmental Agency (EPA). 
-The EPA tracks total U.S. emissions by publishing an inventory of the US Greenhouse Gas Emission by power plants. 
+To analyze US GHG emissions, we focused on datasets from the United States Environmental Agency (EPA). 
+The EPA tracks total U.S. emissions by publishing an inventory of the US Greenhouse Gas Emission by facility. 
 This annual report estimates the total national greenhouse gas emissions and removals associated with human activities across the United States. 
 
 https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data
@@ -19,10 +19,10 @@ Since 1990, gross U.S. greenhouse gas emissions have increased by 2 percent.
 From year to year, emissions can rise and fall due to changes in the economy, the price of fuel, and other factors. 
 In 2019, U.S. greenhouse gas emissions decreased compared to 2018 levels. 
 The decrease was primarily in CO2 emissions from fossil fuel combustion, which was a result of multiple factors, including a decrease in total energy use and a continued shift from coal to less carbon intensive natural gas and renewables. 
-Industry reporting with the EPA is focusing their research on improving CO2 emissions, which have significant impacts on climate warming. CO2 is the largest greenhouse gas emission, in terms of quantity, and power plants were the largest contributers of emissions in the US in 2020.
+Industry reporting with the EPA is focusing their research on improving CO2 emissions, which have significant impacts on climate warming. CO2 is the largest greenhouse gas emission, in terms of quantity.
 
 
-Our group has chosen to study CO2 emissions by power plants in the US in order to understand trends in climate change and potential for carbon capture implementation.
+Our group has chosen to study CO2 emissions in the US in order to understand trends in climate change and potential for carbon capture implementation.
 At the end of the project, we would like to propose a basic tool, which could be used to identify basins where the emissions are high enough and the economic dynamism could support the deployment of a carbon capture investment.
 
 

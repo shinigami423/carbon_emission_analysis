@@ -35,8 +35,6 @@ _With our data analysis project, we hope to answer the following questions:_
 
 • Does the increase or decrease of industry types influence the emission rate?
 
-• How do the investments made by the US Department of Energy and renewable policies impact CO2 emissions?
-
 ## Results
 
 ### Analysis of Global Emissions: Industry Type, Location, and Trends
